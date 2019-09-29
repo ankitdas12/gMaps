@@ -1,0 +1,29 @@
+
+<div class="control-section">
+    <ejs-grid [dataSource]='data'  [allowPaging]="true" [allowSorting]="true"
+    [allowFiltering]="true" [allowGrouping]="true" [filterSettings]='filterOptions' [pageSettings]='pageSettings'>
+        <e-columns>
+                <e-column field='id' [allowFiltering]="false" headerText='ID' width='120' textAlign='center'></e-column>
+                <e-column field='fuel_type_code' headerText='Fuel Type Code' width='200' textAlign='center'></e-column>
+                <e-column field='station_name' headerText='Station Name' width='200' textAlign='center'></e-column>
+                <e-column field='lpg_primary' headerText='Lpg Primary' width='200' textAlign='center'></e-column>
+                <e-column field='cards_accepted' headerText='Cards Accepted' width='200' textAlign='center'></e-column>
+                <e-column field='street_address' [allowFiltering]="false" headerText='Street Address' width='200' textAlign='center'></e-column>
+                <e-column field='city' [allowFiltering]="false" headerText='City' width='120' textAlign='center'></e-column>
+                <e-column field='state' [allowFiltering]="false" headerText='State' width='120' textAlign='center'></e-column>
+                <e-column field='zip' [allowFiltering]="false" headerText='Zip' width='120' textAlign='center'></e-column>
+                <e-column field='station_phone' [allowFiltering]="false" headerText='Station Phone' width='200' textAlign='center'></e-column>
+                <e-column field='status_code' [allowFiltering]="false" headerText='Status Code' width='200' textAlign='center'></e-column>
+                <e-column field='groups_with_access_code' [allowFiltering]="false" headerText='Groups with Access Code' width='250' textAlign='center'></e-column>
+                <e-column field='access_days_time' [allowFiltering]="false" headerText='Access Days Time' width='200' textAlign='center'></e-column>
+                <e-column field='geocode_status' [allowFiltering]="false" headerText='Geocode Status' width='200' textAlign='center'></e-column>
+                <e-column field='latitude' [allowFiltering]="false" headerText='Latitude' width='200' textAlign='center'></e-column>
+                <e-column field='longitude' [allowFiltering]="false" headerText='Longitude' width='200' textAlign='center'></e-column>
+                <e-column field='date_last_confirmed' [allowFiltering]="false" headerText='Date last confirmed' width='200' textAlign='center'></e-column>
+                <e-column field='updated_at' [allowFiltering]="false" headerText='Updated at' width='200' textAlign='center'></e-column>
+                <e-column field='owner_type_code' [allowFiltering]="false" headerText='Owner type code' width='200' textAlign='center'></e-column>
+                <e-column field='e85_blender_pump' [allowFiltering]="false" headerText='e85 blender pump' width='200' textAlign='center'></e-column>
+                <e-column field=':@computed_region_6mkv_f3dw' [allowFiltering]="false" headerText='Computed region_6mkv_f3dw' width='250' textAlign='center'></e-column>
+        </e-columns>
+    </ejs-grid>
+</div>
